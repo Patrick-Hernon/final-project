@@ -1,0 +1,80 @@
+body {
+    margin: 3em;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(129, 170, 138);
+  }
+  
+  h1 {
+    line-height: 1.25;
+    margin: 2em 0 0;
+  }
+  p {
+    margin: .5em 0;
+  }
+  
+  #switcher {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    height: 150px;
+  }
+  #switcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 5px;
+    border: 3px solid black;
+  }
+  
+  /* #grayButton {
+    background-color: gray;
+  }
+  #whiteButton {
+    background-color: white;
+  } */
+
+  #wheatButton {
+    background-image: url('https://i.redd.it/b1n1hsetd1p41.jpg');
+    background-size: contain;
+    transform: rotate(45deg);
+  }
+
+
+  #redButton {
+    background-image: url('https://1.bp.blogspot.com/-cRRrUwjyuH8/VzUj7TXCBSI/AAAAAAAAKkI/5gYs4BNMtmgV7759MRMpNYwYzlwthJ3fQCLcB/s1600/Beaker.jpg');
+    background-size: contain;
+  }
+
+  #blackButton {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSlpz3_XJ4jQlAg10eyHuUOLliFXH6yIALg&usqp=CAU);
+    background-size: contain;
+    transform: rotate(45deg);
+  }
+
+  #greenButton {
+    background-image: url('https://pbs.twimg.com/media/CwLwPKEWYAAPzyh.jpg');
+    background-size: contain;
+  }
+
+  #yellowButton {
+    background-image: url('https://pbs.twimg.com/profile_images/1080855598298611713/lTS-u1Iu_400x400.jpg');
+    background-size: contain;
+    transform: rotate(45deg);
+  }
+
+  #brownButton {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/e/e7/Animal_%28Muppet%29.jpg');
+    background-size: contain;
+  }
+
+  #muppetBox, #text {
+    background-color: black;
+    width: 40%;
+    opacity: 0.8;
+
+  }
